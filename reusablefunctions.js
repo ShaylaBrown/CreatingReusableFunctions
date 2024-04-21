@@ -17,7 +17,7 @@ function getAverage(array) {
     return sum / array.length; {
     }
   }
-console.log(array.length) 
+console.log(array.length)
 
 //Get Longest String
 let arr = [
