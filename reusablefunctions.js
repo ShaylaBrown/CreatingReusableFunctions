@@ -18,3 +18,27 @@ function getAverage(array) {
     }
   }
 console.log(array.length) 
+
+
+let arr = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "jQuery",
+];
+ 
+function getlongeststring() {
+    let longestString = "";
+    for (let i = 0; i < arr.length; i++) {
+        if (
+            typeof arr[i] === "string" &&
+            arr[i].length > longestString.length
+        ) {
+            longestString = arr[i];
+        }
+    }
+    return longestString;
+}
+ 
+// Display output
+console.log(getlongeststring());
