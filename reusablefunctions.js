@@ -19,7 +19,7 @@ function getAverage(array) {
   }
 console.log(array.length) 
 
-
+//Get Longest String
 let arr = [
     "HTML",
     "CSS",
