@@ -1,17 +1,20 @@
 console.log("Creating Reusable Functions!!")
 
 //Calculate sum
-function add(a, b, c) {
-    let sum = a + b + c
-    return a + b + c
-}
-
-const sum = add(5, 10, 15)
-console.log(sum)
-
-//calculate AVERAGE
 var a = [3 + 5 + 7];
 
-a.forEach(function (calculateAverage) {
-    console.log(calculateAverage);
+a.forEach(function (sum) {
+    console.log(sum);
 });
+
+//calculate AVERAGE
+var array = [3 + 5 + 7]; 
+function getAverage(array) {
+    let sum = 15;
+    for (let i = 0; i < array.length; i++) {
+      sum += array[i];
+    }
+    return sum / array.length; {
+    }
+  }
+console.log(array.length) 
